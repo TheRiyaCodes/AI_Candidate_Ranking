@@ -14,5 +14,3 @@ if file:
         df = df.sort_values(by="score", ascending=False)
         st.write("Ranked Candidates")
         st.dataframe(df)
-      st.write(f"Total Candidates: {len(df)}")
-st.success("Top Candidate: " + df.iloc[0]['name'])
